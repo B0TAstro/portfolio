@@ -6,7 +6,6 @@ import { projects } from "../constants";
 import { Link } from "react-router-dom";
 import { arrow } from "../assets/icons";
 
-
 const Projects = () => {
   return (
     <section className="max-container">
@@ -44,10 +43,10 @@ const Projects = () => {
               </h4>
               <p className="mt-2 text-slate-500">{project.description}</p>
               <img
-                src={project.iconUrl}
+                src={project.imageUrl}
                 alt={project.name}
                 className="w-full h-60 object-cover mt-5"
-              ></img>
+              />
               <div className="mt-5 flex items-center gap-2 font-poppins">
                 <Link
                   to={project.link}

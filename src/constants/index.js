@@ -1,221 +1,206 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { iut, evolutive, marioncremona, cmi, diceroller, tapetaupe } from "../assets/images";
 import {
-    car,
-    contact,
-    css,
-    estate,
-    express,
-    git,
-    github,
-    html,
-    javascript,
-    linkedin,
-    mongodb,
-    motion,
-    mui,
-    nextjs,
-    nodejs,
-    pricewise,
-    react,
-    redux,
-    sass,
-    snapgram,
-    summiz,
-    tailwindcss,
-    threads,
-    typescript,
-    figma,
-    threejs,
-    webflow
+  car,
+  contact,
+  css,
+  estate,
+  express,
+  git,
+  github,
+  html,
+  javascript,
+  linkedin,
+  mongodb,
+  motion,
+  mui,
+  nextjs,
+  nodejs,
+  pricewise,
+  react,
+  redux,
+  sass,
+  snapgram,
+  summiz,
+  tailwindcss,
+  threads,
+  typescript,
+  figma,
+  threejs,
+  webflow,
 } from "../assets/icons";
 
 export const skills = [
-    {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: threejs,
-        name: "Three.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: webflow,
-        name: "Webflow",
-        type: "Full Stack",
-    },
-    {
-        imageUrl: figma,
-        name: "Figma",
-        type: "Design",
-    },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
-    },
-    {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
+  {
+    imageUrl: html,
+    name: "HTML",
+    type: "Frontend",
+  },
+  {
+    imageUrl: css,
+    name: "CSS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: javascript,
+    name: "JavaScript",
+    type: "Frontend",
+  },
+  {
+    imageUrl: react,
+    name: "React",
+    type: "Frontend",
+  },
+  {
+    imageUrl: threejs,
+    name: "Three.js",
+    type: "Frontend",
+  },
+  {
+    imageUrl: sass,
+    name: "Sass",
+    type: "Frontend",
+  },
+  {
+    imageUrl: tailwindcss,
+    name: "Tailwind CSS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: nextjs,
+    name: "Next.js",
+    type: "Frontend",
+  },
+  {
+    imageUrl: nodejs,
+    name: "Node.js",
+    type: "Backend",
+  },
+  {
+    imageUrl: mongodb,
+    name: "MongoDB",
+    type: "Database",
+  },
+  {
+    imageUrl: webflow,
+    name: "Webflow",
+    type: "Full Stack",
+  },
+  {
+    imageUrl: figma,
+    name: "Figma",
+    type: "Design",
+  },
+  {
+    imageUrl: github,
+    name: "GitHub",
+    type: "Version Control",
+  },
+  {
+    imageUrl: git,
+    name: "Git",
+    type: "Version Control",
+  },
 ];
 
 export const experiences = [
-    {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+  {
+    title: "Student Developer",
+    company_name: "University Institute of Technology of Chambéry",
+    icon: iut,
+    iconBg: "#d9d9d9",
+    date: "September 2022 - Present",
+    points: [
+      "Created various projects both in teams and solo, including websites, mobile apps, and video games.",
+      "Collaborated with fellow students using Agile methodologies.",
+      "Gained hands-on experience with project management and software development life cycle.",
+      "Participated in coding sprints and peer code reviews to enhance project quality.",
+    ],
+  },
+  {
+    title: "Webflow Developer",
+    company_name: "Evolutive",
+    icon: evolutive,
+    iconBg: "#5383FF",
+    date: "April 2024 - June 2024",
+    points: [
+      "Integrated designs into Webflow.",
+      "Researched and implemented web animations.",
+      "Developed 3D models using Spline & Blender.",
+      "Collaborated with the design team and project manager, participating in client meetings.",
+    ],
+  },
 ];
 
 export const socialLinks = [
-    {
-        name: 'Contact',
-        iconUrl: contact,
-        link: '/contact',
-    },
-    {
-        name: 'GitHub',
-        iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
-    },
-    {
-        name: 'LinkedIn',
-        iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
-    }
+  {
+    name: "Contact",
+    iconUrl: contact,
+    link: "/contact",
+  },
+  {
+    name: "GitHub",
+    iconUrl: github,
+    link: "https://github.com/B0TAstro",
+  },
+  {
+    name: "LinkedIn",
+    iconUrl: linkedin,
+    link: "https://www.linkedin.com/in/tom-boullay/",
+  },
 ];
 
 export const projects = [
-    {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
-    },
-    {
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
-    },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
-    },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+  {
+    iconUrl: pricewise,
+    theme: "btn-back-red",
+    name: "Customer WordPress Theme",
+    description:
+      "I developed a responsive and minimalist WordPress theme for a customer during my second year of the MMI Bachelor's program. This project, part of a two-week intensive Web Week, involved collaboration with a UX designer, content creator, and project manager. Through this experience, I deepened my skills in WordPress, web integration, and client collaboration.",
+    imageUrl: marioncremona,
+    link: "https://github.com/B0TAstro/MarionCremona",
+  },
+  {
+    iconUrl: threads,
+    theme: "btn-back-green",
+    name: "CMI Media Webflow Website",
+    description:
+      "During my internship at Évolutive, I was tasked with fully redesigning the CMI Group's website. Collaborating closely with the design and management teams, I rebuilt a significant portion of the site on Webflow. Unfortunately, I no longer have access to the code, but the final version of the site will soon be available on their official website.",
+    imageUrl: cmi,
+    link: "https://cmimedia.fr/",
+  },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-blue",
+    name: "Dice Roller Mobile Application",
+    description:
+      "The Dice Roller mobile application, developed with React, is a Progressive Web App (PWA) that allows users to simulate rolling dice, making it a perfect companion for board games and role-playing games. With its simple and responsive interface, users can select the number of dice to roll and generate random results. The source code is available on GitHub.",
+    imageUrl: diceroller,
+    link: "https://github.com/B0TAstro/DiceRoller",
+  },
+  {
+    iconUrl: snapgram,
+    theme: "btn-back-pink",
+    name: "Interactive Whack-a-Mole Game",
+    description: "The Interactive Whack-a-Mole Game is a team project that combines custom Arduino hardware with a Processing-based software interface. Players use a mallet to hit virtual moles that randomly appear on a screen, featuring dynamic mole spawning, a scoring system, and a leaderboard.",
+    imageUrl: tapetaupe,
+    link: "https://github.com/B0TAstro/Tape-Taupe",
+  },
+  /*
+  {
+    iconUrl: estate,
+    theme: "btn-back-black",
+    name: "",
+    description:
+      "",
+    link: "",
+  },
+  {
+    iconUrl: car,
+    theme: "btn-back-yellow",
+    name: "",
+    description:
+      "",
+    link: "",
+  },
+*/
 ];

@@ -13,7 +13,7 @@ import Bird from "../models/Bird";
 import music from "../assets/ANIKI.mp3";
 /* import music from "../assets/CLOUDY.mp3"; */
 /* import music from "../assets/sakura.mp3"; */
-import { soundon, soundoff } from "../assets/icons";
+import { soundon, soundoff, github, linkedin } from "../assets/icons";
 
 const home = () => {
   const audioRef = useRef(new Audio(music));
@@ -29,7 +29,7 @@ const home = () => {
     }
     return () => {
       audioRef.current.pause();
-    }
+    };
   }, [isPlayingMusic]);
 
   const adjustIslandForScreenSize = () => {
@@ -112,8 +112,33 @@ const home = () => {
           alt="Music"
           className="w-10 h-10 cursor-pointer object-contain"
           onClick={() => setIsPlayingMusic(!isPlayingMusic)}
+        ></img>
+      </div>
+      <div className="absolute bottom-2 right-2">
+        <a
+          href="https://github.com/B0TAstro"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-        </img>
+          <img
+            src={github}
+            alt="GitHub"
+            className="w-10 h-10 cursor-pointer object-contain"
+          />
+        </a>
+      </div>
+      <div className="absolute bottom-1.5 right-16">
+        <a
+          href="https://www.linkedin.com/in/tom-boullay/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={linkedin}
+            alt="LinkedIn"
+            className="w-10 h-10 cursor-pointer object-contain"
+          />
+        </a>
       </div>
     </section>
   );

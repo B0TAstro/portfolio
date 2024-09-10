@@ -1,15 +1,17 @@
-import hero from './hero.jpg'
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
 import logo from './logo.svg'
+import iut from './iut.png'
+import evolutive from './evolutive.png'
+import marioncremona from './marioncremona.jpg'
+import cmi from './cmi.png'
+import diceroller from './diceroller.jpg'
+import tapetaupe from './tapetaupes.png'
 
 export {
-    hero,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
-    logo
+    logo,
+    iut,
+    evolutive,
+    marioncremona,
+    cmi,
+    diceroller,
+    tapetaupe
 }

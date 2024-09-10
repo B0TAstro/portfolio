@@ -142,6 +142,7 @@ const Contact = () => {
             />
           </Suspense>
         </Canvas>
+        
       </div>
     </section>
   );
