@@ -23,8 +23,7 @@ const About = () => {
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
           Junior developer based in Grenoble, France, specializing in front-end
-          development, but also comfortable with technologies like HTML/CSS,
-          React and Three.js.
+          development, but also comfortable with back-end technologies like React, Three.js, Next.js and SQLITE.
         </p>
       </div>
       <div className="py-10 flex flex-col">

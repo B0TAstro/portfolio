@@ -16,28 +16,28 @@ const renderContent = {
   1: (
     <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5">
       Hi, I am <span className="font-semibold">Tom</span> 👋
-      <br />A junior develloper full stack from France
+      <br />A junior creative developer from France
     </h1>
   ),
   2: (
     <InfoBox
-      text="I am a young student in the Multimedia and Internet Technologies Bachelor's program, passionate about Japanese culture, video games, and music"
+      text="I am a student in the MMI Bachelor's program, passionate about Japanese culture, sports, video games and music"
       link="/about"
       btnText="Learn more about me"
     />
   ),
   3: (
     <InfoBox
-      text="I have worked on various projects, full stack development to UI/UX design and app development."
+      text="I have worked on various projects, full stack development to UI/UX design and app development"
       link="/projects"
-      btnText="Visit my portfolio"
+      btnText="Look my projects"
     />
   ),
   4: (
     <InfoBox
-      text="Looking for a developer for your project? Or just want to chat? Feel free to contact me!"
+      text="Looking for a developer for your project ? Or just want to chat ? Feel free to contact me!"
       link="/contact"
-      btnText="Let's talk"
+      btnText="Let's talk !"
     />
   ),
 };
