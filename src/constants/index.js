@@ -1,4 +1,4 @@
-import { iut, evolutive, marioncremona, cmi, lasasson, weatherapp_preview, tetras_preview, mosquito_preview } from "../assets/images";
+import { iut, evolutive, lasasson, marioncremona_preview, weatherapp_preview, tetras_preview, mosquito_preview, cmi_preview, wp_preview, hrtool_preview } from "../assets/images";
 import {
   contact,
   css,
@@ -22,7 +22,6 @@ import {
   webflow,
   weather,
   box,
-  globe,
   wordpress,
   users,
 } from "../assets/icons";
@@ -193,7 +192,7 @@ export const projects = [
     category: "Internship",
     description:
       "A complete redesign of La Sasson's website using a clean WordPress base. The project focuses on performance, maintainability, and a modern UI while ensuring seamless content management for government officials and employees.",
-    imageUrl: mosquito_preview,
+    imageUrl: wp_preview,
     link: "https://github.com/B0TAstro/wp-lasasson",
   },
   {
@@ -203,7 +202,7 @@ export const projects = [
     category: "Internship",
     description:
       "An internal HR tool designed to streamline human resources processes at La Sasson. The platform will centralize important information, documents, and resources for employees, reducing the workload on HR teams. Currently in the design phase on Figma.",
-    imageUrl: mosquito_preview,
+    imageUrl: hrtool_preview,
     link: "https://www.figma.com/design/94giqVSMtK7WqApXXPJ8yb/LA-SASSON?node-id=325-214",
   },
   {
@@ -223,7 +222,7 @@ export const projects = [
     category: "University / Freelance",
     description:
       "I developed a responsive and minimalist WordPress theme for a customer during my second year of the MMI Bachelor's program. This project, part of a two-week intensive Web Week, involved collaboration with a UX designer, content creator, and project manager.",
-    imageUrl: marioncremona,
+    imageUrl: marioncremona_preview,
     link: "https://github.com/B0TAstro/MarionCremona",
   },
   {
@@ -233,7 +232,7 @@ export const projects = [
     category: "Internship",
     description:
       "During my internship at Évolutive, I was tasked with fully redesigning the CMI Group's website. Collaborating closely with the design and management teams, I rebuilt a significant portion of the site on Webflow. Unfortunately, I no longer have access to the code, but the final version of the site will soon be available on their official website.",
-    imageUrl: cmi,
+    imageUrl: cmi_preview,
     link: "https://cmimedia.fr/",
   },
 ];
